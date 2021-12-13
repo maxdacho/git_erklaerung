@@ -3,7 +3,6 @@
 
 
 .wrapper{
-    height: 180px;
     width: auto;
     background: darkblue;
     color: white;
@@ -35,13 +34,13 @@
     transform: scale(1.1);
 }
 
-.header-h1{
+.header-footer-h1{
     font-family: 'Ubuntu', sans-serif;    
     font-weight: 700;
     font-size: 30px;
 }
 
-.header-h2{
+.header-footer-h2{
     font-family: 'Ubuntu', sans-serif;    
     font-weight: 300;
     font-size: 15px;
@@ -50,9 +49,27 @@
 h1{
     font-family: 'Merriweather', serif;
     font-weight: 700;
+    color: red;
 }
 
 h2{
     font-family: 'Merriweather', serif;
     font-weight: 300;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;    
+    font-weight: 400;
+}
+
+.erklaerung-area{
+    margin: 30px;
+}
+
+footer{
+    background-color: darkblue;
+    color: white;
+    padding: 30px;
+    margin: 0 auto;
+    width: auto;   
 }
