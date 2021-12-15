@@ -37,7 +37,7 @@
 .header-footer-h1{
     font-family: 'Ubuntu', sans-serif;    
     font-weight: 700;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .header-footer-h2{
@@ -46,11 +46,19 @@
     font-size: 15px;
 }
 
+.command-headline{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #7FBF3F;
+}
+
 h1{
     font-family: 'Merriweather', serif;
     font-weight: 700;
     color: red;
     padding-top: 40px;
+    font-size: 25px;
 }
 
 h2{
@@ -63,14 +71,68 @@ p{
     font-weight: 400;
 }
 
+.button-back{
+    margin: 50px 0px;
+}
+
+.go-back{
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 12px;
+    border-color: red;
+    color: red;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.go-back:hover{
+    background-color: red;
+    border-color: red;
+    color: white;
+    transition: 0.5s ease-out;
+}
+
 .erklaerung-area{
     margin: 30px;
 }
 
+.topic-selection{
+    margin: 250px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    margin: 0px 5px;
+    padding: 20px;
+    color: #7FBF3F;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #7FBF3F;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700; 
+}
+
+ul li a:hover{
+  background-color: #7FBF3F;
+  color: white;
+  transition: 0.5s ease-out;
+}
+
 footer{
-    background-color: darkblue;
+    background-color: #333;
     color: white;
     padding: 30px;
     margin: 0 auto;
-    width: auto;   
+    width: auto;  
 }
