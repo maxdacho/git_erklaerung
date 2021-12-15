@@ -37,7 +37,7 @@
 .header-footer-h1{
     font-family: 'Ubuntu', sans-serif;    
     font-weight: 700;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .header-footer-h2{
@@ -46,11 +46,19 @@
     font-size: 15px;
 }
 
+.command-section{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #7FBF3F;
+}
+
 h1{
     font-family: 'Merriweather', serif;
     font-weight: 700;
     color: red;
     padding-top: 40px;
+    font-size: 25px;
 }
 
 h2{
@@ -64,6 +72,10 @@ p{
 }
 
 .erklaerung-area{
+    margin: 30px;
+}
+
+.topic-selection{
     margin: 30px;
 }
 
