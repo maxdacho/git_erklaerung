@@ -99,7 +99,7 @@ p{
 }
 
 .topic-selection{
-    margin: 250px;
+    margin: auto;
 }
 
 ul{
@@ -135,4 +135,10 @@ footer{
     padding: 30px;
     margin: 0 auto;
     width: auto;  
+}
+
+.container {
+    background-color: #eeeeee;
+    min-height: 30rem;
+    display: flex;
 }
