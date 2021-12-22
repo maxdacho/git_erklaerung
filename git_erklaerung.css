@@ -144,6 +144,19 @@ footer{
     display: flex;
 }
 
+.container.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.container.flex img {
+    max-width: 20rem;
+    margin: 1rem;
+}
+
 /* Individuelle CSS-Regeln */
 
 /* Sophie*/
