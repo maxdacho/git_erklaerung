@@ -142,6 +142,16 @@ footer{
     display: flex;
 }
 
+.container.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.container.flex img {
+    max-width: 20rem;
+    margin: 1rem;
+}
+
 /* Individuelle CSS-Regeln */
 
 /* Sophie*/
