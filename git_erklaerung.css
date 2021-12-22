@@ -141,3 +141,10 @@ footer{
     min-height: 30rem;
     display: flex;
 }
+
+/* Individuelle CSS-Regeln */
+
+/* Sophie*/
+.sophie {
+    background-color: pink;
+}
