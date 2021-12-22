@@ -146,6 +146,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 
 .container.flex img {
