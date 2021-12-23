@@ -14,7 +14,7 @@ Nicht zuletzt liegt die Besonderheit darin, dass zusätzlich zu den einzelnen Fe
 Unsere Regeln
 
 Für jede größere Codeänderung müssen eigene Feature-Branches erstellt. Hierfür wäre ein Beispiel des Feature-Textkorrektur.
-Hier wird eine konkrete Aufgabe beschrieben, es geht um die Änderungen im Text.
+Hier wird eine konkrete Aufgabe beschrieben, es geht um die Änderungen im Text. Hinzufügend wäre noch zu erläutern, dass für jeden neuen Git-Branch ein neues Feature erzeugt werden sollte. Sowie ein weiterer Branch zu Behebung von Fehlern. Dies bringt den Vorteil mit sich, dass der Workflow schneller und einfacher verwaltet werden kann.
 Wichtig für die Zusammenarbeit sind zudem Regeln, die für alle Mitglieder gleich festgelegt werden. Darunter versteht sich, dass alle Teammitglieder gleich arbeiten, damit es zu keinen Missverständnissen kommt. 
 Ein weiterer wichtiger Punkt ist, dass zuweckgebunden und eindeutig committed wird. Dazu gehören aussagekräftige Commit-Messages.
 Damit ist gemeint, dass ersichtlich ist, was für eine Erneueurung oder Änderung vorgenommen wurde. 
