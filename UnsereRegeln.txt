@@ -20,4 +20,7 @@ Ein weiterer wichtiger Punkt ist, dass zuweckgebunden und eindeutig committed wi
 Damit ist gemeint, dass ersichtlich ist, was für eine Erneueurung oder Änderung vorgenommen wurde. 
 Außerdem sollte die Änderung vor der Übertragung in das lokale Repository getestet werden, sodass sichergestellt ist, dass alles funktioniert und somit andere Teammitglieder in ihrer Arbeit nicht gehindert werden.
 Wichtig ist außerdem, für jeden Codeabschnitt einen Ansprechpartner zu definieren.
+Zudem ist für die Zusammenarbeit wichtig, dass man Veröffentlichungen eindeutig markiert. 
+Darunter versteht sich, dass man Tags verwenden soll. Tags dienen dazu, eindeutige Release-Versionen des Codes zu markieren.
+Diese Regel hilft Änderungen verschiedener Releases zu vergleichen und ist ein einfaches Rollback der Version sowie eine Aktualisierung der Umgebung. 
 
