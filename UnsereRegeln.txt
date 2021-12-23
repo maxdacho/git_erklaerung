@@ -1,0 +1,23 @@
+Die Auswahl unseres Modells
+
+Für unsere Arbeit verwenden wir als Gruppe das GitFlow Modell. 
+Dieses Modell führt auf Vincent Driessen zurück. Hierfür wird kurz erläutert, wie dieses Modell in der Praxis funktioniert.
+Bei dem bekannten "Git Flow"-Modell von Vincent Driessen werden Feature-Branches sowie mehrere Primäre Branches verwendet.
+Hieberi liegt der Vorteil, im Vergleich zur Trunk-basierten Entwicklung darin, dass GitFlow mehr und beständige Branches sowie größere Commits enthält. 
+Dieses Modell bietet die Möglichkeit, dass Entwickler einen Feature-Branch erstellen und somit den Merge mit dem Haupt-Trunk-Branch verzögern. Dieser Vorgang passiert solange bis der Feature vollständig ist. Dabei lässt sich erkennen, dass diese langlebigen Feature-Branches eine stärkere Zusammenarbeit erfordern bei den entsprechenden Merges.
+Allerdings besteht eine größere Gefahr, dass man hierbei vom Trunk-Branch abweicht und es zu konfliktbehafteten Updates kommt. 
+Unser ausgewähltes Modell ist besonders geeignet für Projekte, die einen geplanten Release-Zyklus haben. 
+Dieses Modell bietet im Unterschied zu anderen Modellen eine großen Vorteil, denn dieser Workflow fügt keine neuen Konzepte bzw. Befehle hinzu, sondern teilt stattdessen den einzlenen Rollen spezifische Rollen zu.
+Die einzelnen Branches werden also spezifisch benannt, nach der Aufgabe die sie haben. 
+Nicht zuletzt liegt die Besonderheit darin, dass zusätzlich zu den einzelnen Feature-Branches, einzelne Branches zum Vorbereiten, Verwalten und Aufzeichnen von Releases eingesetzt werden.
+
+Unsere Regeln
+
+Für jede größere Codeänderung müssen eigene Feature-Branches erstellt. Hierfür wäre ein Beispiel des Feature-Textkorrektur.
+Hier wird eine konkrete Aufgabe beschrieben, es geht um die Änderungen im Text.
+Wichtig für die Zusammenarbeit sind zudem Regeln, die für alle Mitglieder gleich festgelegt werden. Darunter versteht sich, dass alle Teammitglieder gleich arbeiten, damit es zu keinen Missverständnissen kommt. 
+Ein weiterer wichtiger Punkt ist, dass zuweckgebunden und eindeutig committed wird. Dazu gehören aussagekräftige Commit-Messages.
+Damit ist gemeint, dass ersichtlich ist, was für eine Erneueurung oder Änderung vorgenommen wurde. 
+Außerdem sollte die Änderung vor der Übertragung in das lokale Repository getestet werden, sodass sichergestellt ist, dass alles funktioniert und somit andere Teammitglieder in ihrer Arbeit nicht gehindert werden.
+Wichtig ist außerdem, für jeden Codeabschnitt einen Ansprechpartner zu definieren.
+
